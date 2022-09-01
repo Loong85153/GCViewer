@@ -301,6 +301,7 @@ public abstract class AbstractDataReaderSun extends AbstractDataReader {
         }
     }
 
+
     protected void parseGcId(String line, ParseInformation pos) throws ParseException {
         if (!line.substring(pos.getIndex()).contains("#"))
             return;
